@@ -1,0 +1,51 @@
+:root {
+  --main-color: rgba(255, 183, 0, 0.497);
+  --main-color-light: rgb(79, 73, 63);
+  --accent-color: rgba(255, 111, 0, 0.732);
+  --accent-color-light: rgb(255, 196, 0);
+  --secon-title-text-color: rgb(55, 55, 55);
+}
+
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  background-image: linear-gradient(to bottom right, var(--accent-color), var(--main-color-light));
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 1000px;
+}
+
+#main-image, #main-title, #second-title {
+  margin: 3rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+#main-image{
+  background-image: linear-gradient(to bottom right, rgba(255, 200, 0, 0.336), rgba(255, 255, 255, 0.757));
+  border-radius: 15%;
+}
+
+#main-title {
+  color: #FFFFFF;
+  text-shadow: 0.2rem 0.2rem rgba(0, 0, 0, .1);
+}
+
+#main-title > h1 {
+  font-size: 3rem;
+}
+
+#second-title > h2 {
+  font-size: 2rem;
+  color: var(--secon-title-text-color);
+  text-shadow: 0.2rem 0.2rem rgba(0, 0, 0, .1);
+}
